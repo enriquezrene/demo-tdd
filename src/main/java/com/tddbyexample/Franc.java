@@ -1,16 +1,16 @@
 package com.tddbyexample;
 
 /**
- * Created by moe on 5/1/16.
+ * Created by moe on 5/2/16.
  */
-public class Dollar extends Money{
+public class Franc extends Money{
 
-    public Dollar(int ammount, String currency) {
+    public Franc(int ammount, String currency) {
         super(ammount, currency);
     }
 
     public Money times(int multiplier) {
-        return Money.dollar(amount *multiplier);
+        return Money.franc(amount * multiplier);
     }
 
     @Override
